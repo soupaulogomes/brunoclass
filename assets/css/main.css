@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    list-style: none;
+}
+.menu .logotipo{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb500;
+}
+
+.menu .nav-menu
+{
+    padding: 20px 30%;
+    font-size: 22px;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+    background-color: #a9a9a9;
+    display: flex;
+    justify-content: space-between;
+}

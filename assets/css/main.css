@@ -5,35 +5,42 @@
 a {
     list-style: none;
 }
-.menu .logotipo{
-    padding: 15px 0;
-    display: flex;
-    justify-content: center;
-    background-color: #ffb500;
+
+.logotipo {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    justify-content: left;
+}
+
+.navigation{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #a9a9a9;
 }
 
 .menu .nav-menu
 {
-    padding: 20px 30%;
-    font-size: 22px;
-    list-style: none;
-    text-align: center;
-    color: #fff;
-    background-color: #a9a9a9;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    background-color: #ffb500;
+    padding: 20px 100px;
+    align-items: center;
 }
 
 .search-container {
     float: right;
-    margin-top: 10px;
 }
 
 input[type=text] {
-    padding: 6px;
+    padding: 5px;
     margin-top: 8px;
     font-size: 17px;
     border: none;
+    margin-left: 0;
 }
 
 button {
@@ -47,5 +54,5 @@ button {
 }
 
 button:hover {
-    background: #ffb500;
+    background: purple;
 }

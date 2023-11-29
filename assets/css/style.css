@@ -10,45 +10,50 @@ a {
     font-style: normal;
     text-decoration: none;
 }
-
-.logotipo {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    justify-content: left;
+.navbar {
+  right: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background: linear-gradient(45deg, #800080, #4D0F4D);
+  border-bottom: 1px solid #c9d6df;
 }
 
-.navigation{
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-    background-color: #d1d1d1;
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  width: 100%;
 }
 
-.menu .nav-menu
-{
-    margin: 20px 0 0 0;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    background-color: purple;
-    padding: 20px 100px;
-    align-items: center;
+.navbar .container .link-list {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  margin: 0;
 }
 
-.menu .nav-menu a{
-    color: #fff;
-    font-weight: 200;
-    letter-spacing: 1px;
+.navbar .container .link-list li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  cursor: pointer;
 }
 
-.search-container {
-    float: right;
+.navbar .container .link-list .active {
+  color: #0084f8;
+  font-weight: 700;
 }
 
 input[type=text] {
     padding: 10px;
-    margin: 8px 10px 0 0;
     font-size: 17px;
     border: none;
     margin-left: 0;
@@ -57,7 +62,6 @@ input[type=text] {
 
 button {
     padding: 10px 20px;
-    margin-top: 8px;
     color: #fff;
     background-color: #000000;
     font-size: 17px;

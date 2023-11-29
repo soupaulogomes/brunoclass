@@ -1,20 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
-    font-family: sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 a {
     list-style: none;
     font-style: normal;
     text-decoration: none;
-}
-
-header {
-    color: #000000;
-    font-weight: bold;
-    font-style: normal;
 }
 
 .logotipo {
@@ -33,7 +27,7 @@ header {
 
 .menu .nav-menu
 {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -42,35 +36,85 @@ header {
     align-items: center;
 }
 
+.menu .nav-menu a{
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
 .search-container {
     float: right;
 }
 
 input[type=text] {
-    padding: 5px;
-    margin-top: 8px;
+    padding: 10px;
+    margin: 8px 10px 0 0;
     font-size: 17px;
     border: none;
     margin-left: 0;
+    border-radius: 8px;
 }
 
 button {
-    padding: 6px 10px;
+    padding: 10px 20px;
     margin-top: 8px;
-    color: #d1d1d1;
+    color: #fff;
     background-color: #000000;
     font-size: 17px;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
+    font-weight: 200;
 }
 
 button:hover {
-    background: purple;
+    background: #fff;
+    color: purple;
 }
 
-.carrocel-jogador {
+.players{
+    padding: 60px 0;
+    background-color: #d1d1d1;
+}
+
+.player-title h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 1.25px;
+    padding: 0;
+}
+
+.staff {
+    padding: 60px 0;
+    background-color: #FFDEFF;
+}
+
+.staff .staff-title h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+.staff .staff-member {
+    padding: 40px 0;
     display: flex;
-    justify-content: center;
-    border-radius: 12px;
 }
 
+.staff .staff-member .member {
+    padding: 0 20px;
+    float: left;
+}
+
+.staff .staff-member .member h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.staff .staff-member .member p {
+    text-align: justify;
+    font-weight: 400;
+}

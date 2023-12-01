@@ -152,3 +152,8 @@ button:hover {
     width: 400px;
     justify-content: center;
 }
+
+.patrocinios {
+    display: flex;
+    justify-content: space-around;
+}

@@ -22,7 +22,7 @@ a {
     font-size: 20px;
     text-align: center;
     color: #fff;
-    background-color: #d1d1d1;
+    background-color: #000;
 }
 
 .menu .nav-menu
@@ -38,7 +38,7 @@ a {
 
 .menu .nav-menu a{
     color: #fff;
-    font-weight: 200;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -64,19 +64,21 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 8px;
-    font-weight: 200;
+    font-weight: 700;
 }
 
 button:hover {
     background: #fff;
     color: purple;
+    font-weight: 700;
 }
 
  /* --------------------------------------------------- */
 
 .players{
     padding: 60px 0;
-    background-color: #d1d1d1;
+    background-color: #000;
+    color: #fff;
 }
 
 .player-title h1 {
@@ -100,12 +102,14 @@ button:hover {
 .players .player-member .member h2 {
     text-align: center;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
+    border-radius: 15px;
 }
 
 .players .player-member .member p {
     text-align: justify;
-    font-weight: 400;
+    font-weight: 600;
+    border-radius: 15px;
 }
 
 .players .player-image {
@@ -113,6 +117,7 @@ button:hover {
     width: 400px;
     justify-content: center;
     border-radius: 50%;
+
 }
 
 
@@ -122,7 +127,8 @@ button:hover {
 
 .staff {
     padding: 60px 0;
-    background-color: #FFDEFF;
+    background-color: #000;
+    color: #fff;
 }
 
 .staff .staff-title h1 {

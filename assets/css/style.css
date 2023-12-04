@@ -171,10 +171,18 @@ button:hover {
 
 .patrocinios {
     display: flex;
+    padding: 15px;
     justify-content: space-around;
+    font-weight: 700;
+    color: white;
+    background-color: purple;
 }
 
 .cookie {
     display: flex;
     justify-content: space-around;
+    font-weight: 400px;
+    background-color: purple;
+    color: white;
+    
 }

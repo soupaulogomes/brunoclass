@@ -108,6 +108,13 @@ button:hover {
     font-weight: 400;
 }
 
+.players .player-image {
+    padding: 40px 0 10px 0;
+    width: 400px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
 
 
  /* --------------------------------------------------------- */

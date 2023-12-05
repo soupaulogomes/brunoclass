@@ -18,6 +18,14 @@ a {
     justify-content: left;
 }
 
+.user-login ul {
+    display: inline-block;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 0;
+    text-align: center;
+}
+
 .navigation{
     font-size: 20px;
     text-align: center;

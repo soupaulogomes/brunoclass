@@ -34,7 +34,7 @@ a {
     justify-content: flex-start;
     align-items: center;
     gap: 32px;
-    margin: 0;
+    margin: 5px;
   }
   
   .navbar .container .link-list li {
@@ -101,6 +101,10 @@ a {
 .players .player-member .member {
     padding: 0 20px;
     float: left;
+    border: 1px solid #ff00ff;
+    margin: 0 5px;
+    border-radius: 10px;
+    background-color: #80008069;
 }
 
 .players .player-member .member h2 {
